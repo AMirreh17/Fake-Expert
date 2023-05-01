@@ -10,6 +10,7 @@ public class NextPanel : MonoBehaviour
 {
 	//public static int ScreenWidth = Screen.width;
 	//public static int ScreenHeight = Screen.height;
+	// These variables below are used for home page of the application
 	public GameObject StartScreen;
 	public GameObject StartScreen2;
 	public GameObject StartScreen3;
@@ -45,19 +46,19 @@ public class NextPanel : MonoBehaviour
 		Name3.DOFade(1, 5f);
 
 	}
-
+	// These functions are used to switch between different panels in thehome scene and also change between other scenes within the project
 	public void NeztPanelScreen()
 	{
 		HomeScreen.SetActive(false);
 		StartScreen.SetActive(true);
-		image1.DOFade(1, 5f);
+		image1.DOFade(1, 5f);// fade animation to image variable
 	}
 	public void NeztPanelScreen2()
 	{
 		
 		StartScreen.SetActive(false);
 		StartScreen2.SetActive(true);
-		image2.DOFade(1, 5f);
+		image2.DOFade(1, 5f);// fade animation to image variable
 
 	}
 	public void NeztPanelScreen3()
@@ -67,7 +68,7 @@ public class NextPanel : MonoBehaviour
 		StartScreen4.SetActive(false);
 		StartScreen3.SetActive(true);
 		//image3.DOFade(1, 5f);
-		levelName.DOFade(1, 5f);
+		levelName.DOFade(1, 5f);// fade animation to image variable
 
 	}
 	public void NeztPanelScreen4()
@@ -77,7 +78,7 @@ public class NextPanel : MonoBehaviour
 		StartScreen2.SetActive(false);
 		StartScreen4.SetActive(true);
 		//image3.DOFade(1, 5f);
-		image4.DOFade(1, 5f);
+		image4.DOFade(1, 5f);// fade animation to image variable
 
 	}
 

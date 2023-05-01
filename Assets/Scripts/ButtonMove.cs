@@ -17,7 +17,7 @@ public class ButtonMove : MonoBehaviour
 
 	public void ButtonSound()
 	{
-		ButtonSFX.Play();
+		ButtonSFX.Play();//play sound effecr
 	}
    
 }
